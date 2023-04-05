@@ -254,11 +254,9 @@ export AWS_PROFILE="your_aws
 
 1. Clone the repository:
 
-<!--- TODO replace repo address --->
-
 ```bash
-git clone https://github.com/calyptia/eks-core-repo.git
-cd eks-core-repo
+git clone https://github.com/calyptia/terraform-aws-eks-calyptia-core.git
+cd terraform-aws-eks-calyptia-core
 ```
 
 2. Create a terraform.tfvars file in the root folder and define the required variables:
