@@ -1,7 +1,7 @@
 # Terraform AWS EKS Cluster with Calyptia Core
 
-This Terraform configuration creates an Amazon EKS cluster, VPC, and deploys Calyptia Core into the cluster. The
-configuration is separated into modules for better organization and flexibility.
+This Terraform configuration creates an Amazon EKS cluster, VPC, and deploys [Calyptia Core](https://calyptia.com/products/calyptia-core/) into the cluster.
+The configuration is separated into modules for better organization and flexibility.
 
 ## Modules
 
@@ -311,6 +311,6 @@ terraform destroy
 | calyptia_core_namespace | Kubernetes namespace for Calyptia Core            | calyptia      | Yes      |
 | service_account_name    | Kubernetes service account name for Calyptia Core | calyptia-core | Yes      |
 | calyptia_core_version   | Version of Calyptia Core to be deployed           | 1.1.2         | Yes      |
-| calyptia_core_token     | Calyptia Core authentication token	               |               | Yes      |
-| instance_name           | Name for the Calyptia Core instance	              |               | Yes      |
+| calyptia_core_token     | Calyptia Core authentication token                |               | Yes      |
+| instance_name           | Name for the Calyptia Core instance               |               | Yes      |
 | region                  | AWS region                                        | us-east-1     | Yes      |
