@@ -6,7 +6,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  name     ="${var.cluster_name}-eks-core"
+  name     = "${var.cluster_name}-eks-core"
   vpc_cidr = var.vpc_cidr
   //Retrieve the first 3 availability zones from the list of available zones in the current AWS region
   azs = slice(data.aws_availability_zones.available.names, 0, 3)

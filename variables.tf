@@ -6,7 +6,7 @@ variable "cluster_name" {
 variable "machine_type" {
   description = "machine type"
   type        = string
-  default = "t3.medium"
+  default     = "t3.medium"
 }
 
 variable "node_count" {

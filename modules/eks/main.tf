@@ -3,7 +3,7 @@ data "aws_eks_cluster_auth" "this" {
 }
 
 locals {
-  name     ="${var.cluster_name}-eks-core"
+  name = "${var.cluster_name}-eks-core"
 
   tags = {
     ClusterName = local.name
